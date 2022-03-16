@@ -85,15 +85,16 @@ class App extends Component {
           />
         </div>
         <br />
-        <SubmitAndResetButtons submitLabel="Submit" resetLabel="Reset" handleSubmit={this.postATweet} handleReset={this.reset} hideReset />
-        {this.state.tweets.map((tweet, index) => (
+        <SubmitAndResetButtons submitLabel="Submit" resetLabel="Reset" handleSubmit={this.postATweet} handleReset={this.reset}  />
+        {this.state.tweets.map((tweet,index) => (
           <Tweets
-            key={index}
-            tweet={tweet.content_twt}
-            date={tweet.created_twt}
-
+          key={index} 
+          tweet = {tweet.content_twt}
+          date = {tweet.created_twt}
+          
           />
-        ))}
+         ))} 
+      
 
         <br />
         <Tweets tweet="Tweet" />
