@@ -1,0 +1,48 @@
+.body-design {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: rgb(3, 3, 95);
+  margin: auto;
+  height: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  width: 330px;
+  border-radius: 20px;
+  border: 5px solid;
+}
+
+.button-design {
+  display: block;
+  margin: auto;
+}
+
+.title-design {
+  color: rgb(250, 250, 158);
+  text-align: center;
+}
+.header-design {
+  font-size: 20px;
+  color: rgb(250, 250, 158);
+}
+.charCounter-design {
+  color: rgb(250, 250, 158);
+}
+.date-design {
+  display: block;
+  text-align: right;
+}
+
+.tweets-design {
+  display: block;
+  color: rgb(250, 250, 158);
+  text-align: center;
+}
+.footer-design {
+  display: block;
+  color: rgb(250, 250, 158);
+}
+.textarea-design {
+  display: block;
+}
