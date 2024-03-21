@@ -1,2 +1,2 @@
 # nolla-fe
-frontend for the nolla twitter app
+Frontend for the nolla twitter app
